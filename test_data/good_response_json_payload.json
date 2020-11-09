@@ -1,0 +1,84 @@
+{
+  "id": 98,
+  "name": "Copito Bank - Empresas",
+  "state": 1,
+  "bank_type": 2,
+  "family_ids": [
+    98
+  ],
+  "reader_enabled": true,
+  "transfer_enabled": true,
+  "bank_codes": [
+    "9998"
+  ],
+  "country": "es,pl,pt,do,it",
+  "features": [
+    "read",
+    "read_accounts",
+    "read_auto",
+    "read_cards",
+    "read_customers",
+    "read_insurances",
+    "read_loans",
+    "read_n19_files",
+    "read_n43_files",
+    "read_pensions",
+    "transfer",
+    "transfer_auto"
+  ],
+  "details": {
+    "imago": "https://xyz//imago/i_bank_type_69.png",
+    "related_banks": "69,98",
+    "logo": "https://xyz/logo/Copito_Logo.svg",
+    "colour": "#532915",
+    "url": "https://xyz.unnax.com/"
+  },
+  "parameters": [
+    {
+      "type": "password",
+      "fields": [
+        {
+          "type": "text",
+          "max_length": 25,
+          "optional": false,
+          "label": "Contraseña",
+          "name": "password",
+          "validator": "",
+          "min_length": 0,
+          "required_by": []
+        }
+      ],
+      "optional": false,
+      "modes": [
+        "lockstep",
+        "auto",
+        "all"
+      ],
+      "label": "Contraseña",
+      "name": "password"
+    },
+    {
+      "type": "text",
+      "fields": [
+        {
+          "type": "text",
+          "max_length": 30,
+          "optional": false,
+          "label": "Usuario",
+          "name": "username",
+          "validator": "",
+          "min_length": 0,
+          "required_by": []
+        }
+      ],
+      "optional": false,
+      "modes": [
+        "lockstep",
+        "auto",
+        "all"
+      ],
+      "label": "Usuario",
+      "name": "username"
+    }
+  ]
+}
